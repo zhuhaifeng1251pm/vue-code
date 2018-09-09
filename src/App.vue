@@ -2,16 +2,17 @@
   <div class="app">
     <Headers/>
     <router-view></router-view>
+   
   </div>
 </template>
 <script>
 import Headers from "./components/Headers";
 export default {
-    name: "app",
-    components: {
-        Headers
-    },data:()=>({
-    })
+  name: "app",
+  components: {
+    Headers
+  }
+  
 };
 </script>
 <style scoped>
